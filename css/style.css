@@ -167,22 +167,31 @@
 
 /* #endregion main-section */
 
-/* channels */
+/* channels and possibilities */
 
-.channels img{
+.channels img, .possibilities img, .conforts img{
     margin-top: 7rem;
 }
 
-.channels h2{
+.channels h2, .possibilities h2{
     font-size: 40px;
     padding: 9.5rem 2rem 0 8rem;
 }
 
-.channels p{
+.channels p, .possibilities p{
     padding: 1rem 2.5rem 0 8rem;
 }
 
-/* conforts */
+/* conforts (same as above, only switched paddings left/right)*/
+
+.conforts h2{
+    font-size: 40px;
+    padding: 9.5rem 8rem 0 2rem;
+}
+
+.conforts p{
+    padding: 1rem 8rem 0 2.5rem;
+}
 
 /* #endregion main */
 
