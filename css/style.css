@@ -32,9 +32,28 @@
     background-color: #f6f6f6;
 }
 
-.footer-low{
-    padding: 1rem 2rem 0 2rem;
+.wave-reverse{
+    color: #f6f6f6;
+    transform: rotate(180deg);
+    margin-top: -4px;
+}
 
+.wave{
+    color: #f6f6f6;
+    margin-top: 4rem;
+    margin-bottom: -4px;
+}
+
+.wave-rev-add{
+    padding-bottom: 4rem;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.ta-center{
+    text-align: center;
 }
 
 .col-2{
@@ -174,7 +193,6 @@
 }
 
 .channels h2, .possibilities h2{
-    font-size: 40px;
     padding: 9.5rem 2rem 0 8rem;
 }
 
@@ -193,12 +211,26 @@
     padding: 1rem 8rem 0 2.5rem;
 }
 
+/* tecnology */
+
+.tecnology{
+    padding-top: 3rem;
+}
+
+.tecnology p{
+    padding: 0 6rem;
+}
+
 /* #endregion main */
 
 /* #region footer */
 
 .footer-low{
     border-top: 1px solid white;
+}
+
+.footer-low{
+    padding: 1rem 2rem 0 2rem;
 }
 
 .lower-strip{
