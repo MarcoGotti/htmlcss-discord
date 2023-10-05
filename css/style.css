@@ -6,116 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* header */
-
-#site-header{
-    padding: .5rem;
-    background-color: #255ee9;
-    font-weight: 600;
-}
-
-.header-bar{
-    align-items: center;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.logo,.menu,.login{
-    padding: .5rem;
-}
-
-.menu>.links{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-
-.menu a{
-    padding-right: 2rem;
-    color: #ffffff;
-}
-
-.login{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.accedi{
-    background-color: #ffffff;
-    border: #ffffff;
-    padding: 7px 12px;
-    border-radius: 1rem;
-    font-size: 13px;
-    color: #1a1e21;
-    font-weight: 600;
-}
-
-/* main */
-
-.main-section{
-    background-image: url(../img/jumbo.png);
-    height: 495px;
-    background-size: cover;
-}
-
-.main-infos{
-    margin: auto;
-    padding: 4rem 5rem;
-    text-align: center;
-    color: white;
-}
-
-.main-section h1{
-    padding: 2rem;
-    font-size: 50px;
-}
-
-.main-section p{
-    padding: 0 70px;
-    line-height: 1.8rem;
-}
-
-.buttons{
-    margin: 1.5rem;
-}
-
-#button-scarica{
-    margin-right: .5rem;
-    padding: 1rem 1.5rem;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 2rem;
-    font-size: 16px;
-    color: #1a1e21;
-    font-weight: 600;
-}
-
-#button-apri-discord{
-    margin-left: .5rem;
-    padding: 1rem 1.5rem;
-    background-color:#1a1e21;
-    border: none;
-    border-radius: 2rem;
-    font-size: 16px;
-    color: #ffffff;
-}
-
-/* footer */
-
-.footer-low{
-    border-top: 1px solid white;
-}
-
-.lower-strip{
-    justify-content: space-between;
-    padding: 10px 0;
-}
-
-
-
-
-
-/* Utility */
+/* #region utility */
 
 .container{
     width: 70%;
@@ -129,9 +20,17 @@
     margin: 0 -1rem;
 }
 
-/* main>div, .footer-top{
-    padding: 2rem;
-} */
+.lh_1-8{
+    line-height: 1.8rem;
+}
+
+.fc_light-black{
+    color: #1a1e21;;
+}
+
+.bg-light{
+    background-color: #f6f6f6;
+}
 
 .footer-low{
     padding: 1rem 2rem 0 2rem;
@@ -165,6 +64,144 @@
 .col-12{
     width: 100%;
 }
+
+/* #endregion utility */
+
+/* #region header */
+
+#site-header{
+    padding: .5rem;
+    background-color: #255ee9;
+    font-weight: 600;
+}
+
+.header-bar{
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.logo,.menu,.login{
+    padding: .5rem;
+}
+
+.menu>.links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu a{
+    padding-right: 2rem;
+    color: #ffffff;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#button-accedi{
+    background-color: #ffffff;
+    border: #ffffff;
+    padding: 7px 12px;
+    border-radius: 1rem;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* #endregion header */
+
+
+
+/* #region main */
+
+/* #region main-section */
+
+.main-section{
+    background-image: url(../img/jumbo.png);
+    height: 495px;
+    background-size: cover;
+}
+
+.main-infos{
+    margin: auto;
+    padding: 4rem 5rem;
+    text-align: center;
+    color: white;
+}
+
+.main-section h1{
+    padding: 2rem;
+    font-size: 50px;
+}
+
+.main-section p{
+    padding: 0 70px;
+}
+
+.buttons{
+    margin: 1.5rem;
+}
+
+#button-scarica{
+    margin-right: .5rem;
+    padding: 1rem 1.5rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 16px;
+    color: #1a1e21;
+    font-weight: 600;
+}
+
+#button-apri-discord{
+    margin-left: .5rem;
+    padding: 1rem 1.5rem;
+    background-color:#1a1e21;
+    border: none;
+    border-radius: 2rem;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* #endregion main-section */
+
+/* channels */
+
+.channels img{
+    margin-top: 7rem;
+}
+
+.channels h2{
+    font-size: 40px;
+    padding: 9.5rem 2rem 0 8rem;
+}
+
+.channels p{
+    padding: 1rem 2.5rem 0 8rem;
+}
+
+/* conforts */
+
+/* #endregion main */
+
+/* #region footer */
+
+.footer-low{
+    border-top: 1px solid white;
+}
+
+.lower-strip{
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* #endregion footer */
+
+
+
+
 
 /* Debug */
 .debug header{
