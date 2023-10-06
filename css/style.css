@@ -14,6 +14,12 @@
     margin: auto;
 }
 
+.container-footer{
+    width: 60%;
+    max-width: 1152px;
+    margin: auto;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +62,10 @@ h2{
     text-align: center;
 }
 
+ul{
+    list-style: none;
+}
+
 .col-2{
     width: calc((100% / 12) * 2);
 }
@@ -84,6 +94,52 @@ h2{
     width: 100%;
 }
 
+    /* buttons */
+
+.button-small{
+    border: none;
+    border-radius: 1rem;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 12px;
+}
+
+#button-accedi{
+    background-color: #ffffff;
+}   
+
+#button-registrati{
+    color: #ffffff;
+    background-color: #8ea1e1;
+}
+
+.button{
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 16px;
+}
+
+#button-scarica{
+    margin-right: .5rem;
+    background-color: #ffffff;
+    color: #1a1e21;
+    font-weight: 600;
+}
+
+#button-apri-discord{
+    margin-left: .5rem;
+    background-color:#1a1e21;
+    color: #ffffff;
+}
+
+#button-scarica-blue{
+    background-color: #8ea1e1;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
 /* #endregion utility */
 
 /* #region header */
@@ -106,7 +162,6 @@ h2{
 
 .menu>.links{
     display: flex;
-    list-style: none;
     justify-content: center;
 }
 
@@ -120,22 +175,13 @@ h2{
     justify-content: flex-end;
 }
 
-#button-accedi{
-    background-color: #ffffff;
-    border: #ffffff;
-    padding: 7px 12px;
-    border-radius: 1rem;
-    font-size: 13px;
-    font-weight: 600;
-}
-
 /* #endregion header */
 
 
 
 /* #region main */
 
-/* #region main-section */
+/* main-section */
 
 .main-section{
     background-image: url(../img/jumbo.png);
@@ -159,32 +205,9 @@ h2{
     padding: 0 70px;
 }
 
-.buttons{
+#button-couple{
     margin: 1.5rem;
 }
-
-#button-scarica{
-    margin-right: .5rem;
-    padding: 1rem 1.5rem;
-    background-color: #ffffff;
-    border: none;
-    border-radius: 2rem;
-    font-size: 16px;
-    color: #1a1e21;
-    font-weight: 600;
-}
-
-#button-apri-discord{
-    margin-left: .5rem;
-    padding: 1rem 1.5rem;
-    background-color:#1a1e21;
-    border: none;
-    border-radius: 2rem;
-    font-size: 16px;
-    color: #ffffff;
-}
-
-/* #endregion main-section */
 
 /* channels and possibilities */
 
@@ -200,7 +223,7 @@ h2{
     padding: 1rem 2.5rem 0 8rem;
 }
 
-/* conforts (same as above, only switched paddings left/right)*/
+/* conforts (same as above, w/ switched paddings left+right)*/
 
 .conforts h2{
     font-size: 40px;
@@ -214,19 +237,71 @@ h2{
 /* tecnology */
 
 .tecnology{
-    padding-top: 3rem;
+    padding: 3rem 0 6rem 0;
 }
 
 .tecnology p{
     padding: 0 6rem;
 }
 
+.tecnology h3{
+    font-size: 20px;
+    margin: -15px 0 2rem 0;
+}
+
+
+
 /* #endregion main */
 
 /* #region footer */
 
-.footer-low{
-    border-top: 1px solid white;
+footer{
+    background-color: #1a1e21;
+    color: #ffffff;
+}
+
+footer [class^="col-"]{
+    padding: 4rem 0 1.5rem 0;
+}
+
+#language{
+    padding: 0 0 1rem 2rem;
+    display: flex;
+    gap: 4px;
+}
+
+footer h3, h5{
+    color: #8ea1e1;
+}
+
+footer h3{
+    padding: 0 9rem 1rem 2rem;
+}
+
+.socials{
+    padding: 0 0 0 2rem;
+}
+
+.socials a[class^="fa"]{
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+footer .col-2 h5{
+    margin-bottom: 5px;
+}
+
+footer .col-2 ul{
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+footer a{
+    color: white;
+}
+
+.footer-top .container{
+    border-bottom: 1px solid #8ea1e1;
 }
 
 .footer-low{
@@ -242,9 +317,7 @@ h2{
 
 
 
-
-
-/* Debug */
+/* #region Debug */
 .debug header{
     background-color: #add8e6;
 }
@@ -313,3 +386,5 @@ h2{
     border: 1px dashed black;
     padding: 4px;
 }
+
+/* #endregion Debug */
