@@ -1,0 +1,116 @@
+#slogan{
+    animation-name: slogan;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+@keyframes slogan {
+    0%{
+        transform: scale(0.0);
+    }
+    55%{
+        transform: scale(0.0);
+    }
+    56%{
+        transform: scale(0.1);
+    }
+    75%{
+        transform: scale(0.5);
+    }
+    90%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#site-header a:hover{
+    font-size: 14px;
+}
+
+
+.logo>img{
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes logo {
+    0%{
+        filter: opacity(0%);
+    }
+    85%{
+        filter: opacity(100%);
+    } 
+    95%{
+        filter: brightness(4);
+        transform: scale(1.8);
+    }
+    100%{
+        filter: brightness(1)
+        transform: scale(1.8);
+    }      
+}
+
+#text{
+    animation: text 7s linear;
+    
+}
+@keyframes text {
+    0%{
+        transform: scale(1000);
+    }
+    60%{
+        transform: scale(1000);
+    }
+    65%{
+        transform: scale(500);
+    }
+    70%{
+        transform: scale(100);
+    }
+    75%{
+        transform: scale(50);
+    }
+    80%{
+        transform: scale(10);
+    }
+    95%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+
+#button-accedi:hover{
+    background-color: beige;
+    border: 1.5px solid black;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 1.25rem;
+}
+
+.button:hover{
+    padding: 1.5rem 2rem;
+    border-radius: 2.5rem;
+}
+
+#button-scarica:hover{
+    background-color: beige;
+    border: 2px solid black;
+}
+
+#button-apri-discord:hover{
+    background-color: rgb(103, 103, 92); 
+    border: 2px solid white;
+}
+
+footer a:hover{
+    color: #8ea1e1;
+    font-size: 14px;
+}
